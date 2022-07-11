@@ -2,9 +2,10 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<meta name="viewport" content=-"width=device-width, user-scalable=no, initial scale=1.0, maximum0scale=1.0">
+		<meta name="viewport" content=device-width user-scalable=no, initial scale=1.0, maximum0scale=1.0>
 		<meta http-equiv="X-UA-Compatible" content="ie-edge">
 		<title>Glenn Gallimore Cloud Resume</title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 		<link rel="stylesheet" href="style.css">
 		<script async src="https://api.countapi.xyz/hit/ggallimore-cv.com/883bba01-adea-4d86-bdd0-5d90ac4428bf?callback=websiteVisits"></script>
 	</head>
@@ -13,89 +14,143 @@
 <!--fixed banner-->
 <div class="box-area">
 	<header>
-		<div class="wrapper">
+		<div class="header">
 			<div class="logo">
 				<div class='box red'>
 				<a href="#">Glenn Gallimore</a>
 				</div>
 			</div>
-			<nav>
+			<nav class="navigation">
 
-				<a href="about.html">About Me</a>
-				<a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/glenn-gallimore-87997b139/">Linkedin</a>
-				<a href="crc_journey.html">Blog</a>
-				<a href="mailto:glenngallimore@gmail.com">Email</a>
+				<a href="#exper">Experience &nbsp;&nbsp;&nbsp;</a>
+				<a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/glenn-gallimore-87997b139/">Linkedin &nbsp;&nbsp;&nbsp;</a>
+				<a href="#p1">Goals &nbsp;&nbsp;&nbsp;</a>
+				<a href="crc_journey.html">CRC Project &nbsp;&nbsp;&nbsp;</a>
+				<a href="https://github.com/GlennGallimoreCE">Github &nbsp;&nbsp;&nbsp;</a>
+				<a href="mailto:glenngallimore@gmail.com">Email &nbsp;&nbsp;&nbsp;</a>
 			</nav>
 		</div>
 	</header>
+
 <body>
 
-<!--Fixed banner end-->
+	<div class="container1">
+		<div class="left-box1">
+			<h1>Welcome to my little corner of the internet.</h1>
+			<p>My name is Glenn Gallimore, I'm a Web Developer / IT Generalist.  This site is currently hosted on AWS, which I've uploaded from Github thanks to the Cloud Resume Challenge!</p>
+			<button class="crc-button"><a href="crc_journey.html">Cloud Resume Challenge</a></button>
+			<hr>
+			<p>Please keep in mind this is a work in progress, things are liable to change over time!</p>			
+		</div>
+		<div class="right-box1">
+			<img src="resume images/Myface2.png" alt="" class="myface">
+		</div>
+	</div>
+	<div class="container2">
+		<h1 class="exp-header" id="exper">Work Experience</h1>
+		<div class="exp-container">
+			<div class="exp">
+					<ul>
+						<p>	<h4 class="jobs">IT Technician I - Creative Care (2018-2022)</h4></p>
+						<li>Various Web Application and hardware support for staff</li>
+						<li>Active Directory/Exchange profiles</li>
+						<l1>Extensive device/troubleshooting documentation</l1>
+						<li>VOIP phone setups</li>
+						<li>Point Click Care patient charting systems (including iOS variants)</li>
+						<li>Supplyhawk inventory system</li>
+						<li>Lifesize teleconference system</li>
+						<li>VOIP phone setups</li>
+						<li>Microsoft Office</li>
+					</ul>
+			</div>
+			<div class="vr"></div> <!-- Bootstrap divider, be sure to include the starter link before the CSS at the top -->
+			<div class="exp">
+				<ul>
+					<p><h4 class="jobs">IT Technician II / Networking - Creative Care (2022-Present)</h4></p>
+					<p>Continuation of the first role with the following:</p>
+					<li>Switch configurations/documentations</li>
+					<li>Windows Server support & hardware maintenance</li>
+					<li>EMAR and tape backups</li>
+					<li>LogMeIn(GoTo) Remote systems</li>
+					<li>KACE iOS mobile device managing</li>
+					<li>VOIP server managing</li>	
+					<li>Powershell scripts</li>	
+					<li>VSphere</li>			
+				</ul>
+			</div>
+			<div class="vr"></div> <!-- Bootstrap divider, be sure to include the starter link before the CSS at the top -->
+			<div class="exp">	
+				<ul>
+					<p><h4 class="jobs">Programming Knowledge and other platforms</h4></p>
+					<li>HTML</li>
+					<li>CSS</li>
+					<li>Javascript</li>
+					<li>Bootstrap</li>
+					<li>Node.js</li>
+					<li>Express.js</li>
+					<li>SQL</li>
+					<li>Python</li>
+					<li>Git</li>
+					<li>(Linux)Bash</li>
+					<li>Powershell</li>
+					<li>AWS</li>
+
+				</ul>
+			</div>
+		</div>	
+		<div class="exp"></div>
+	</div>
+	<div class="container3" id="p1">
+		<div class="overlay"></div>
+			<h2>So, what are my overall goals?</h2>
+			<br>
+			<p>Well, if I'm being perfectly honest I would like to shift gears from the operations side of Information Technology to the development side!</p>
+			<br>
+			<p>I've had a background in web since I've left college in 2008, but aside from small scale projects like websites, and a now defunct webcomic "webring" (retro right?) there wasn't many places here in Arizona at the time to really flex my skills, so eventually I shifted into IT as I needed some experience understanding what keeps the web afloat.</p>
+			<br>
+			<p>Some more experienced devs might have a good chrotle at this, however I think learning how the internet functions and how to keep it secure would make me a more well rounded developer.  It's one thing to write/copy code, but is my code going to prevent buffer overflows or SQL injections?  Will my code cause the company application to crash with taxing lines of javascript?  These are things I have to ask myself these days.</p>
+			<br>
+			<p>For what it's worth, shifting from IT to a developer role allows me to fully respect folks on the front lines while we work on patching any vulnarabilities and push out updates.</p>
+			<hr class="white-divider">
+			<p>I suppose I should mention a bit of a gap between school and getting in to IT.  Once upon a time, I wanted to be an indie game developer.</p>
+			<p><h6>Yeah, yeah... I know not exactly start-up material.</h6></p>
+			<p>However, I've made two games published on Google Play and Steam, however the former was taken off the store.  The latter is still up on <a href="https://store.steampowered.com/app/386460/Baxters_Venture_Directors_Cut/">Steam!</a></p>
+		</div>		
+	</div>
+	<div class="container4">
+
+			<h1 class="deg-header" id="degree">Degrees & Certifications</h1>
+			<div class="deg-container">
+				<div class="deg">
+					<p>Bachelors of Computer Science: Art Institute</p>
+					<p>Game Art & Web Design</p>
+				</div>
+				<div class="deg">
+					<p>CompTIA Network+</p>
+				</div>
+				<div class="deg">
+					<p>CompTIA Security+</p>
+				</div>
+			</div>	
+
+	</div>
 
 
-	<!--image slider star-->
-	<div class="slideshow">
-			<!--radio buttons start-->
-		<div class="slideshow-item">
-				<img src="resume images/arizonawilds.png" alt="">
-				<div class="slideshow-item-text">
-					<h5>Aspiring Cloud Engineer</h5>
-					<p>Currently working at Creative Care as an IT Technician II/Networking Jr (3.5 YOE). At a few nursing care/phramacy/rehab facilities in Kingman, Arizona and Bullhead City, Arizona.</p>
-				</div>
-			</div>
-		<div class="slideshow-item">
-				<img src="resume images/serverroom.png" alt="">
-				<div class="slideshow-item-text">
-					<h5>Current Experience</h5>
-					<p> -Windows support including, Office/Skype 2016</p>
-					<p> -Hardware support for PCs, Laptops, Printers, Phones, etc.</p>
-					<p> -Active Directory experience</p>
-					<p> -Microsoft Exchange experience</p>
-					<p> -Vshphere (VMWare) experience</p>
-					<p> -Layer 7 firewall and Email filtering</p>
-					<p> -Telecom, TCP/IP, and Switch configuration</p>
-					<p> -Security using AVG server, Sentinel One, Bitlocker, Lojack</p>
-					<p> -Several web application inhouse support</p>
-					<p> -Entry Level Python scripting</p>
-					<p> -Entry level AWS Engineering (this website is hosted on AWS, and built by myself on this platform!)</p>
-				</div>
-			</div>
-		<div class="slideshow-item">
-				<img src="resume images/owls.png" alt="">
-				<div class="slideshow-item-text">
-					<h5>Education</h5>
-					<p>-Bachelor's of Computer Science - Art Institute of Pittsburg (2008)</p>
-					<p>-CompTIA Network+ (2021)</p>
-					<p>-CompTIA Security+ (2021)</p>
-					<p>-CompTIA Linux+ (TBD)</p>
-					<p>-AWS Solutions Architect Associate (TBD)</p>
-				</div>
-			</div>
-		<div class="slideshow-item">
-				<img src="resume images/cityscapenight.png" alt="">
-				<div class="slideshow-item-text">
-					<h5>Additional Qualifications</h5>
-					<p>-Some experience using HTML, CSS, Javascript (As seen on this website)</p>
-					<p>-Documentation and Diagram design</p>
-					<p>-Project orientated</p>
-				</div>
-			</div>
-		<div class="slideshow-item">
-				<img src="resume images/veglasanga.png" alt="">
-				<div class="slideshow-item-text">
-					<h5>Projects and Activities</h5>
-					<p>-I have released a game in HTML5 on Steam: <a href="https://store.steampowered.com/app/386460/Baxters_Venture_Directors_Cut/">Baxter's Adventure</a></p>
-					<p>-Link to project blog (under construction, check back later!)
-				</div>
-			</div>
+
+</body>
+
+
 			<!--slide images end-->
 
 	<footer>
 		<!--page counter + copyright script begin-->
-			<div class="counter">
+			<div class="footer">
 				<p style="color:white">Copyright &copy; <script>document.write(new Date().getFullYear())</script> -- Page Views <span id="record_count">0</p>
 					<!--page counter script end-->
-					<script src="script.js"></script>
+					<script src="script.js">
+
+
+					</script>
 					<!-- this is for our script to call the API URL, which will trigger Lambda to update the count on DynamoDB-->
 					<script>
 							fetch('https://k4rpwgps50.execute-api.us-east-1.amazonaws.com/dev/')
@@ -108,6 +163,6 @@
 				</div>
 
 	</footer>
-</body>
+
 
 </html>
