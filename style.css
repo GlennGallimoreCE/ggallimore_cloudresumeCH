@@ -116,7 +116,11 @@ a {
 
 .exp-container{
 	display: flex;
-	align-items: center;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: space-around;
+	padding: 10px;
+	margin: 10px;
 	
 	
 }
@@ -126,6 +130,63 @@ a {
 	flex: 1;
 	justify-content: center;
 }
+
+/* Fifth container (added later) for projects */
+.container5 {
+	background-color: rgb(255, 255, 255);
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	align-items: flex-start;
+	padding:  70px 200px;
+	justify-content: space-evenly;
+	color: rgb(0, 0, 0);
+	padding: 10px;
+
+
+}
+
+.container5 a {
+	color: rgb(45, 42, 209);
+	text-decoration: none;
+}
+
+.article a {
+	color: rgb(45, 42, 209);
+	text-decoration: none;
+}
+
+.my-works {
+	display: flex;
+	align-items: flex-start;
+	margin-top: 30px;
+	padding: 15px;
+}
+
+.images {
+	flex: 1;
+	justify-content: center;
+	text-align: center;
+	padding: 45px;
+}
+
+.thumbnail {
+	display: flexbox;
+	align-items:initial;
+	border: 1px solid rgb(0, 0, 0);
+	border-radius: 35px;
+	padding: 5px;
+	max-width: 20%;
+	height: auto;
+	margin-top: 5px;
+	
+}
+
+.thumbnail:hover {
+	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+	filter: grayscale(100%);
+}
+
 
 /* Third Container */
 
@@ -150,9 +211,9 @@ a {
 /* Fourth Container */
 
 .container4 {
-	background-color: rgb(255, 255, 255);
+	background-color: rgb(7, 8, 39);
 	font-family: Arial, Helvetica, sans-serif;
-	color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
 	text-align: center;
 	padding: 70px 200px;
 
